@@ -1,10 +1,10 @@
 # 
-# AniFix | Whitelist
+# bySumo | Whitelist
 # 
 # Last Update: 29.12.2021
 # 
 # 
-# This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License. 
+# This work is licensed under a Creative Commons Attribution-NonCommercial 3.0 International License. 
 # ======================================================================================================
 
 coinbase.com
