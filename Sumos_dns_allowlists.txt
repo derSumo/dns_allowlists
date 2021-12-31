@@ -133,8 +133,8 @@ cdninstagram.com
 connect.facebook.net
 store.steampowered.com
 steampowered.com
-
-
+media-ham3-1.cdn.whatsapp.net
+media-ber1-1.cdn.whatsapp.net
 
 
 
