@@ -1,4 +1,4 @@
-# 
+# ======================================================================================================
 # bySumo | Whitelist
 # 
 # Last Update: 29.12.2021
@@ -135,8 +135,8 @@ store.steampowered.com
 steampowered.com
 media-ham3-1.cdn.whatsapp.net
 media-ber1-1.cdn.whatsapp.net
-
-
+click.redditmail.com
+redditmail.com
 
 
 
