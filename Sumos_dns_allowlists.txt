@@ -7,6 +7,25 @@
 # This work is licensed under a Creative Commons Attribution-NonCommercial 3.0 International License. 
 # ======================================================================================================
 
+# Usefuel Websites
+# Aliexpress
+@@||ae01.alicdn.com^$important
+@@||g.alicdn.com^$important
+@@||img.alicdn.com^$important
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Unsortiert
 coinbase.com
 web.whatsapp.com
 whatsapp.com
