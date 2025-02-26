@@ -1,15 +1,34 @@
-# AdGuard / PiHole Whitelist 
+# AdGuard / Pi-hole Whitelist
 
-Diese Liste hab ich für mich gemacht. Aber ich teile sie gerne mit denn Leuten, die die Ganzen Dienste wie Reddit, Whatsapp Web und die Zwischen Server von Anwendung von Google benötigen. 
+Diese Whitelist habe ich ursprünglich für meinen persönlichen Gebrauch erstellt – und teile sie gerne mit allen, die Dienste wie Reddit, WhatsApp Web und verschiedene Google-Anwendungen nutzen möchten.
 
-Denn ich hab so rund 5 Mio. Blocks Aktiv, sind ca. 30 Block Listen. Und es block alles Prima und sehr zuverlässig. Das Problem... es block auch diense wie Whatsapp, bzw nicht direkt, sondern die Medien server der EU. Wenn man Whatsapp Web verwendet, werden Audio und Bilder die man geschickt bekomm nicht geladen. Oder man möchte auf reddit gehen. Die Medien laden nicht weil Asstes Server fehlen. Naja mit dieser Anti-Block List, ist es möglich Dienste zu nutzen "ABER" ohne Werbung. 
+## Hintergrund
 
-Die Liste ist noch in denn Anfang Stadium, und wird immer wieder gepflegt wenn mir was neues auffält. 
+- **Hohe Blockzahlen:**  
+  Bei mir laufen ca. 30 Blocklisten mit insgesamt rund 5 Mio. Blockregeln. Das sorgt für einen effektiven Schutz, führt aber manchmal dazu, dass auch wichtige Medienserver blockiert werden.
 
+- **Problematik:**  
+  So werden beispielsweise beim Verwenden von WhatsApp Web Audio- und Bilddateien nicht geladen, weil die entsprechenden EU-Mediaserver blockiert sind. Ähnliches passiert auch bei Reddit – essentielle Asset-Server fehlen, sodass Medieninhalte nicht angezeigt werden.
 
-# Warum eig. die Liste ?
-Ganz einfach, es ist ein festes Backup. Geht mein AdGuard mal Flöten oder ich will eine Person das Installieren. Muss ich nicht immer manuell alles eintragen. 
-Somit hat man (für mich) die Wichtigsten Dienste, Funktionsfähig. 
+- **Lösung:**  
+  Mit dieser Anti-Block-Whitelist stelle ich sicher, dass die für den Betrieb nötigen Dienste freigegeben bleiben – ganz ohne lästige Werbung.
 
+## Warum diese Whitelist?
 
-Schau dir gerne die Liste an, falls sie zu "locker" ist. Dann nutze sie nicht. Aber eig. sind nur die dienste drinne die ich nutze. 
+- **Backup-Funktion:**  
+  Falls mein AdGuard einmal ausfällt oder ich jemanden bei der Einrichtung unterstützen möchte, muss nicht alles manuell konfiguriert werden. Diese Liste dient als festes Backup der wichtigsten Freigaben.
+
+- **Persönliche Nutzung:**  
+  Die Liste umfasst ausschließlich die Dienste, die ich persönlich nutze. Falls sie Dir zu „locker“ erscheint, kannst Du sie natürlich nach Deinen Bedürfnissen anpassen.
+
+## Status und Pflege
+
+- **Entwicklungsstand:**  
+  Die Whitelist befindet sich noch in der Anfangsphase und wird kontinuierlich aktualisiert, sobald mir neue notwendige Ausnahmen auffallen.
+
+- **Feedback:**  
+  Schau Dir die Liste gerne an und gib Bescheid, wenn Du Verbesserungsvorschläge hast oder Anpassungen wünschst.
+
+---
+
+Diese Whitelist soll Dir helfen, die wichtigsten Dienste auch unter strengen Blockregeln zuverlässig zu nutzen – und das ganz ohne störende Werbung.
