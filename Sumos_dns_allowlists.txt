@@ -3,14 +3,14 @@
 # Last Update: 2025-02-26
 #
 # Beschreibung:
-# Diese AdGuard-Whitelist wurde neu strukturiert, um die Wartbarkeit und Übersichtlichkeit zu verbessern.
-# Die Liste gliedert sich in zwei Hauptbereiche:
+# Diese DNS-Whitelist wurde neu strukturiert, um Wartbarkeit und Übersichtlichkeit zu verbessern.
+# Es gibt zwei Hauptbereiche:
 #
-# 1. Exception Rules (@@-Regeln):
-#    Diese Regeln erlauben explizit Ressourcen – alphabetisch sortiert.
+# 1. Exception Rules (@@‑Regeln):
+#    Alle expliziten Ausnahmen, alphabetisch sortiert.
 #
 # 2. Allowed Domains (Plain Domains):
-#    Die erlaubten Domains sind in folgende Kategorien unterteilt:
+#    Die erlaubten Domains, unterteilt in folgende Kategorien:
 #
 #    A. E-Commerce & Retail
 #    B. Social Media & Communication
@@ -26,8 +26,7 @@
 ###########################
 # 1. Exception Rules (@@)
 ###########################
-# (Alphabetisch sortiert – bitte prüfe, ob alle Duplikate entfernt wurden)
-
+# Alle @@‑Regeln werden alphabetisch sortiert aufgeführt.
 @@||0xxx.ws^$important
 @@||15-courier.push.apple.com^$important
 @@||18pussyclub.com^$important
@@ -46,8 +45,8 @@
 @@||api2.branch.io^$important
 @@||api-js.datadome.co^$important
 @@||api-js.mixpanel.com^$important
-@@||api.smoot.apple.com^$important
 @@||api.epicgames.dev^$important
+@@||api.smoot.apple.com^$important
 @@||app-analytics-v2.snapchat.com^$important
 @@||app-measurement.com^$important
 @@||article.bildstatic.de^$important
@@ -85,22 +84,19 @@
 @@||e-static.pornmd.com^$important
 @@||e.reddit.com^$important
 @@||en.wikipedia.org^$important
-@@||externelement.placeholder^$important  # (Platzhalter für eventuell fehlende Filter – prüfen!)
 @@||firebaselogging-pa.googleapis.com^$important
 @@||fls-eu.amazon.de^$important
 @@||frontier-va.tiktokv.com^$important
-@@||g-live.com^$important  # (Hinweis: Sollte "g.live.com" lauten)
-@@||g.alicdn.com^$important  # (Falls als @@ benötigt, sonst in Plain)
+@@||g.live.com^$important
 @@||guzzoni.apple.com^$important
 @@||gql-realtime.reddit.com^$important
-@@||g.redd.it^$important  # (Sollte ggf. "i.redd.it" sein – Original prüfen!)
+@@||i.redd.it^$important
 @@||gateway.facebook.com^$important
 @@||gateway.instagram.com^$important
 @@||gateway.reddit.com^$important
 @@||gateway.icloud.com^$important
-@@||geo.battle.net^$important  # (Falls in @@ notwendig)
 @@||genshin.hoyoverse.com^$important
-@@||giphy.com^$important  # (Auch hier ggf. in Plain, wenn nicht blockiert werden soll)
+@@||giphy.com^$important
 @@||global.localizecdn.com^$important
 @@||go.xhamster.com^$important
 @@||go.xhamsterlive.com^$important
@@ -117,7 +113,6 @@
 @@||init-p01md.apple.com^$important
 @@||init.push.apple.com^$important
 @@||ichnaea.netflix.com^$important
-@@||i.redd.it^$important
 @@||iphone-ld.apple.com^$important
 @@||iphone-ld.origin-apple.com.akadns.net^$important
 @@||is1-ssl.mzstatic.com^$important
@@ -127,7 +122,6 @@
 @@||is5-ssl.mzstatic.com^$important
 @@||js.ui-portal.de^$important
 @@||kutt.it^$important
-@@||launched.placeholder^$important  # (Platzhalter, falls weitere Filter ergänzt werden)
 @@||libredirect.github.io^$important
 @@||login.live.com^$important
 @@||me.apple-dns.net^$important
@@ -135,21 +129,16 @@
 @@||metrics.icloud.com^$important
 @@||metrics.bangbros.com^$important
 @@||metric-api.newrelic.com^$important
-@@||mit.placeholder^$important  # (Platzhalter – evtl. abändern)
 @@||mmg.whatsapp.net^$important
 @@||mssdk19-normal-useast1a.tiktokv.com^$important
 @@||munin-monitoring.org^$important
 @@||neexulro.net^$important
-@@||newplaceholder^$important  # (Platzhalter, falls benötigt)
 @@||oauth.reddit.com^$important
 @@||ocsp.comodoca.com.cdn.cloudflare.net^$important
 @@||ocsp.sectigo.com^$important
 @@||ocsp.usertrust.com^$important
 @@||objects.githubusercontent.com^$important
-@@||ocsp.placeholder^$important  # (Platzhalter)
 @@||open.spotifycdn.com^$important
-@@||osc.placeholder^$important  # (Platzhalter)
-@@||otc.placeholder^$important  # (Platzhalter)
 @@||pagead2.googlesyndication.com^$important
 @@||pancake.apple.com^$important
 @@||p3-buy.itunes-apple.com.akadns.net^$important
@@ -157,12 +146,12 @@
 @@||p57-fmip.icloud.com^$important
 @@||p57-quota.icloud.com^$important
 @@||pipelines.actions.githubusercontent.com^$important
-@@||play-cdn.itunes-apple.com.akadns.net^$important
+@@||play-cdn.itunes.apple.com.akadns.net^$important
 @@||play.itunes.apple.com^$important
 @@||play.itunes.apple.com.edgesuite.net^$important
-@@||pr0gramm.com^$important  # (Falls als @@ benötigt – oft in Plain)
+@@||pr0gramm.com^$important
 @@||profile-pics-l3.xvideos-cdn.com^$important
-@@||raw.github.com^$important
+@@||raw.githubusercontent.com^$important
 @@||reddit.map.fastly.net^$important
 @@||redditmail.com^$important
 @@||realtime.pa.highwebmedia.com^$important
@@ -174,7 +163,7 @@
 @@||rtlog19-normal-useast1a.tiktokv.com^$important
 @@||rtlog22-normal-useast1a.tiktokv.com^$important
 @@||s.mzstatic.com^$important
-@@||s.mzstatic.itunes-apple.com.akadns.net^$important
+@@||s.mzstatic.itunes.apple.com.akadns.net^$important
 @@||safebrowsing.brave.com^$important
 @@||safebrowsing.googleapis.com^$important
 @@||sdk.fra-01.braze.eu^$important
@@ -182,15 +171,12 @@
 @@||sdk-os-static.hoyoverse.com^$important
 @@||se2.itunes.apple.com^$important
 @@||s7.addthis.com^$important
-@@||s.content.placeholder^$important  # (Platzhalter)
 @@||setup.icloud.com^$important
 @@||star.fallback.c10r.facebook.com^$important
 @@||store-images.s-microsoft.com^$important
-@@||store.steampowered.com^$important  # (Falls als @@ benötigt – oft in Plain)
 @@||strapi.reddit.com^$important
 @@||styles.redditmedia.com^$important
 @@||s.uicdn.com^$important
-@@||sw.placeholder^$important  # (Platzhalter)
 @@||t0.gstatic.com^$important
 @@||t3.gstatic.com^$important
 @@||tbsc.apple.com^$important
@@ -202,7 +188,7 @@
 @@||twemoji.maxcdn.com^$important
 @@||use.typekit.net^$important
 @@||userlocation.googleapis.com^$important
-@@||v-redd.it^$important  # (Sollte ggf. "v.redd.it" lauten)
+@@||v.redd.it^$important
 @@||v77.tiktokcdn.com^$important
 @@||vip.adstatic.com^$important
 @@||w3-reporting.reddit.com^$important
@@ -217,7 +203,6 @@
 # -------------------------------------
 # A. E-Commerce & Retail
 # -------------------------------------
-# Domains von Online-Shops, Handelsplattformen & Vergleichsportalen.
 ae01.alicdn.com
 g.alicdn.com
 img.alicdn.com
@@ -237,7 +222,6 @@ geizhals.de
 # -------------------------------------
 # B. Social Media & Communication
 # -------------------------------------
-# Seiten aus den Bereichen Messaging, Social Media & Foren.
 www.reddit.com
 gql.reddit.com
 reddit.com
@@ -269,7 +253,6 @@ i.4cdn.org
 # -------------------------------------
 # C. Media & Entertainment
 # -------------------------------------
-# Streaming, Film-/Serien-Datenbanken, Videoportale u.a.
 index.anifix.de
 anifix.de
 sumotv.de
@@ -299,7 +282,6 @@ steampowered.com
 # -------------------------------------
 # D. Adult Content
 # -------------------------------------
-# Websites aus dem NSFW-/Adult-Bereich.
 deu.xhamster.com
 de.xhamster.com
 justporn.to
@@ -314,7 +296,6 @@ xbooru.com
 www.pornmd.com
 pornmd.com
 preggophilia.com
-www.babeforums.org
 babeforums.org
 xfantazy.com
 gelbooru.com
@@ -329,7 +310,6 @@ www.redgifs.com
 # -------------------------------------
 # E. Gaming, ROMs & Torrent Sites
 # -------------------------------------
-# Seiten zu Gaming, Spiele-Downloads, Torrent- und Emulator-Angeboten.
 toplist.raidrush.ws
 board.darklight.to
 nox.to
@@ -353,7 +333,6 @@ consoletarget.com
 # -------------------------------------
 # F. CDNs, Analytics & Vendor Domains
 # -------------------------------------
-# Technische Domains, CDNs, API-/Analysetools & Anbieter.
 fonts.gstatic.com
 googleapis.com
 gravatar.com
@@ -369,7 +348,6 @@ pipelines.actions.githubusercontent.com
 # -------------------------------------
 # G. Others / Miscellaneous
 # -------------------------------------
-# Alle übrigen Domains, die keiner der o. g. Kategorien eindeutig zuzuordnen sind.
 data-load.in
 warez-world.org
 1load.sx
@@ -404,7 +382,8 @@ usfinf.net
 pixeldrain.com
 videosz.com
 cdnv-movies.pimproll.com
-nocodb.com
+gamecopyworld.com
+dl.gamecopyworld.com
 rd.consoletarget.com
 consoletarget.com
 www.solaredge.com
